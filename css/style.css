@@ -1,0 +1,35 @@
+
+.img-fluid{
+max-width: 100%;
+height: auto;
+}
+img{
+    width: auto; 
+ max-height: 50%; 
+ padding: 25px;
+ }
+
+ .navbar {
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 0rem;
+   padding-bottom: 0rem;
+}
+h5{
+   font-size: 2vw;
+   top: -4px;
+   left: 20px;
+ }
+.p{
+   font-size: 1vw;
+   top: -4px;
+   left: 20px;
+}
+.bg-black {
+   --bs-bg-opacity: 0;
+   background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important;
+}
+
